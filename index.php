@@ -26,7 +26,7 @@
             <td><button id="ajout_table">ajout</button></td>
         </tr>
     </table>
-    <form action="<?php $_SERVER['PHP_SEFL'];?>" method="post">
+    <form action="<?php $_SERVER['PHP_SELF'];?>" method="post">
         <input type="hidden" id="val_table" name="val_table" value="null">
         <button type="submit">Afficher</button>
     </form>
